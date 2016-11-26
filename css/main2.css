@@ -1,0 +1,61 @@
+/***** BASE STYLES *****/
+/***prob***/
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Lora', serif;
+#about, #work, #contact {
+    height:600px;
+}
+
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/****About CSS Code****/
+#about .full-width {
+    padding: 80px 0;
+}
+#about h2 {
+    font-family: Lora; /***prob***/
+    font-size: 36px;
+}
+ 
+#about p {
+    font-size: 21px;
+    color:#888888;
+    line-height: 40px;
+    padding-right: 50px;
+}
+
+/****Work CSS Code****/
+#work {
+color: blue;
+text-align: center;
+
+
+}
+
+}
+
+/****contact CSS Code****/
+#contact  {
+    background: #ebebeb;
+}
+
+#contact .full-width{
+    padding: 110px 0;
+}
+}
